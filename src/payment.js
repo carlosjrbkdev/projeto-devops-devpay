@@ -5,7 +5,7 @@ function processPayment(amount) {
   return {
     status: 'success',
     amount: amount,
-    transactionId: Math.floor(Math.random() * 1000000)
+    transactionId: Math.floor(Math.random() * 1000000 +1)
   };
 }
 
