@@ -1,0 +1,15 @@
+{
+  "name": "devpay-app",
+  "version": "1.0.0",
+  "description": "Exemplo de app DevPay para trabalho de DevOps",
+  "main": "src/payment.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src/ tests/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "jest": "^29.7.0"
+  }
+}
