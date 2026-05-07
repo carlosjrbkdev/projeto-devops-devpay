@@ -13,7 +13,7 @@ function processPayment(amount) {
   
   // Regra 2: Retorna um objeto de sucesso se o valor for válido.
   return {
-    status: 'success',
+    status: 'falha',
     amount: amount,
     transactionId: Math.floor(Math.random() * 1000000 +1) // Gera um ID aleatório para a transação
   };
