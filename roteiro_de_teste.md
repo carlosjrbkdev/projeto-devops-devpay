@@ -1,7 +1,5 @@
 # Roteiro Prático: Simulação de DevOps na Apresentação
 
-Este guia passo a passo foi criado para ser usado durante a demonstração ao vivo do projeto ou para você treinar o fluxo antes da apresentação.
-
 Ele mostra, na prática, como o **GitHub Actions (CI)** atua como uma barreira de segurança, impedindo que código com erros seja integrado na branch `main`.
 
 ---
