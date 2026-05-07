@@ -4,6 +4,7 @@
   "description": "Exemplo de app DevPay para trabalho de DevOps",
   "main": "src/payment.js",
   "scripts": {
+    "start": "node index.js",
     "test": "jest",
     "lint": "eslint src/ tests/"
   },
