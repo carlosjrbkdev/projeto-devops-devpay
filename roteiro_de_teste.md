@@ -34,11 +34,14 @@ git checkout -b feature/nova-regra
 ```
 
 ## Passo 3: Fazer uma alteração proposital (Quebrando o teste)
-Vamos forçar um erro para ver o Pipeline CI te impedindo de estragar a branch `main`! 
+Vamos forçar um erro de verdade para ver o Pipeline CI te impedindo de estragar a branch `main`! 
 
 1. Abra o arquivo `src/payment.js` no seu editor.
-2. Altere a lógica da função propositalmente para algo que não faz sentido. 
-   *(Por exemplo: se houver um cálculo ou retorno simples, adicione uma soma errada `+ 1`)*.
+2. Para que o teste automatizado falhe e bloqueie o PR, você precisa alterar uma regra que é validada no teste. Faça **UMA** destas alterações:
+   - **Opção A (Mudar status):** Troque a linha `status: 'success',` para `status: 'falha',`
+   - **Opção B (Mudar valor):** Troque a linha `amount: amount,` para `amount: amount + 1,`
+   
+*(Nota: não altere apenas o cálculo do `transactionId`, pois como ele é randômico, qualquer número gerado ainda fará o teste passar!)*
 
 ## Passo 4: Fazer o Commit e o Push
 Salve as alterações e envie essa branch para o GitHub:
