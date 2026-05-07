@@ -74,4 +74,3 @@ git push
 6. A caixa ficará **Verde ✅**! O botão de **"Merge pull request"** será finalmente liberado.
 
 ---
-**💡 Dica de Ouro:** Fazer exatamente esse fluxo durante os últimos minutos da sua apresentação mostrará total domínio do processo de DevOps, saindo da teoria e mostrando o valor prático imediato da automação!
